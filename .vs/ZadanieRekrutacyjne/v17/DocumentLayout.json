@@ -1,7 +1,23 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Mikolaj\\source\\repos\\ZadanieRekrutacyjne\\ZadanieRekrutacyjne\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42C9201C-A197-4856-978B-326927D9096F}|ZadanieRekrutacyjne.csproj|c:\\users\\mikolaj\\source\\repos\\zadanierekrutacyjne\\zadanierekrutacyjne\\models\\stackoverflowtag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42C9201C-A197-4856-978B-326927D9096F}|ZadanieRekrutacyjne.csproj|solutionrelative:models\\stackoverflowtag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA5D8B4-1B6E-4316-8854-E44187537491}|..\\ZadanieRekrutacyjne.Tests\\ZadanieRekrutacyjne.Tests.csproj|c:\\users\\mikolaj\\source\\repos\\zadanierekrutacyjne\\zadanierekrutacyjne.tests\\stackoverflowapicontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42C9201C-A197-4856-978B-326927D9096F}|ZadanieRekrutacyjne.csproj|c:\\users\\mikolaj\\source\\repos\\zadanierekrutacyjne\\zadanierekrutacyjne\\controllers\\stackoverflowapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42C9201C-A197-4856-978B-326927D9096F}|ZadanieRekrutacyjne.csproj|solutionrelative:controllers\\stackoverflowapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42C9201C-A197-4856-978B-326927D9096F}|ZadanieRekrutacyjne.csproj|c:\\users\\mikolaj\\source\\repos\\zadanierekrutacyjne\\zadanierekrutacyjne\\services\\stackoverflowapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42C9201C-A197-4856-978B-326927D9096F}|ZadanieRekrutacyjne.csproj|solutionrelative:services\\stackoverflowapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +25,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StackOverflowAPIControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Mikolaj\\source\\repos\\ZadanieRekrutacyjne\\ZadanieRekrutacyjne.Tests\\StackOverflowAPIControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\ZadanieRekrutacyjne.Tests\\StackOverflowAPIControllerTests.cs",
+              "ToolTip": "C:\\Users\\Mikolaj\\source\\repos\\ZadanieRekrutacyjne\\ZadanieRekrutacyjne.Tests\\StackOverflowAPIControllerTests.cs",
+              "RelativeToolTip": "..\\ZadanieRekrutacyjne.Tests\\StackOverflowAPIControllerTests.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwE8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T20:14:53.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StackOverflowTag.cs",
+              "DocumentMoniker": "C:\\Users\\Mikolaj\\source\\repos\\ZadanieRekrutacyjne\\ZadanieRekrutacyjne\\Models\\StackOverflowTag.cs",
+              "RelativeDocumentMoniker": "Models\\StackOverflowTag.cs",
+              "ToolTip": "C:\\Users\\Mikolaj\\source\\repos\\ZadanieRekrutacyjne\\ZadanieRekrutacyjne\\Models\\StackOverflowTag.cs",
+              "RelativeToolTip": "Models\\StackOverflowTag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T16:55:46.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StackOverflowAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\Mikolaj\\source\\repos\\ZadanieRekrutacyjne\\ZadanieRekrutacyjne\\Controllers\\StackOverflowAPIController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StackOverflowAPIController.cs",
+              "ToolTip": "C:\\Users\\Mikolaj\\source\\repos\\ZadanieRekrutacyjne\\ZadanieRekrutacyjne\\Controllers\\StackOverflowAPIController.cs",
+              "RelativeToolTip": "Controllers\\StackOverflowAPIController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T16:01:19.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StackOverflowAPIService.cs",
+              "DocumentMoniker": "C:\\Users\\Mikolaj\\source\\repos\\ZadanieRekrutacyjne\\ZadanieRekrutacyjne\\Services\\StackOverflowAPIService.cs",
+              "RelativeDocumentMoniker": "Services\\StackOverflowAPIService.cs",
+              "ToolTip": "C:\\Users\\Mikolaj\\source\\repos\\ZadanieRekrutacyjne\\ZadanieRekrutacyjne\\Services\\StackOverflowAPIService.cs",
+              "RelativeToolTip": "Services\\StackOverflowAPIService.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAowCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T15:49:02.532Z"
             }
           ]
         }

@@ -11,8 +11,8 @@ using ZadanieRekrutacyjne.Models;
 namespace ZadanieRekrutacyjne.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240327140009_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20240402171715_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -37,6 +37,9 @@ namespace ZadanieRekrutacyjne.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Share")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

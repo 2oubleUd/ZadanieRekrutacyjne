@@ -17,7 +17,9 @@ namespace ZadanieRekrutacyjne.Controllers
         }
 
 
-        [HttpGet]
+        // to do: https://www.youtube.com/results?search_query=containerisation+docker+web+api
+
+        [HttpGet("fetch-tags")]
         public async Task<IActionResult> FetchTags()
         {
             try
@@ -33,22 +35,28 @@ namespace ZadanieRekrutacyjne.Controllers
         }
 
         [HttpGet("paginated-result")]
-        public async Task<ActionResult<IEnumerable<Root>>> GetPaginatedTags(int pageSize, int pageNum, char ordering, string orderBy)
+        public async Task<ActionResult<IEnumerable<StackOverflowTag>>> GetPaginatedTags(int pageSize, int pageNum, char ordering, string orderBy)
         {
             // to do: implelement exception handling when user tries to take index out of range or when result is empty
-
-            var result = await _stackOverflowAPIService.GetPaginatedResultAsync(pageSize, pageNum, ordering, orderBy);
-
-            if(result.IsNullOrEmpty())
+            try
             {
-                return NotFound();
+                var result = await _stackOverflowAPIService.GetPaginatedResultAsync(pageSize, pageNum, ordering, orderBy);
+
+                if (result.IsNullOrEmpty())
+                {
+                    return NotFound();
+                }
+
+                return Ok(result);
             }
-
-            return Ok(result);
-            
-            
+            catch (ArgumentOutOfRangeException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch(Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, $"An error occurred: {ex.Message}");
+            }            
         }
-
-
     }
 }
