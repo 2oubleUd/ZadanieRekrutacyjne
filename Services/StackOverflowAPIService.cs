@@ -40,6 +40,8 @@ namespace ZadanieRekrutacyjne.Services
                 }
             }
 
+            
+
             await CalculateShareOfTagAsync();
         }
 

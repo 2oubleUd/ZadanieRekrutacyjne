@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZadanieRekrutacyjne", "ZadanieRekrutacyjne.csproj", "{42C9201C-A197-4856-978B-326927D9096F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZadanieRekrutacyjne.Tests", "..\ZadanieRekrutacyjne.Tests\ZadanieRekrutacyjne.Tests.csproj", "{1AA5D8B4-1B6E-4316-8854-E44187537491}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZadanieRekrutacyjne.Tests", "..\ZadanieRekrutacyjne.Tests\ZadanieRekrutacyjne.Tests.csproj", "{1AA5D8B4-1B6E-4316-8854-E44187537491}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -16,7 +16,6 @@ namespace ZadanieRekrutacyjne.Controllers
             _stackOverflowAPIService = stackOverflowAPIService;
         }
 
-
         // to do: https://www.youtube.com/results?search_query=containerisation+docker+web+api
 
         [HttpGet("fetch-tags")]
